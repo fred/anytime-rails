@@ -12,7 +12,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'jquery-rails', '>= 1.0.0'
 
   gem.files         = `git ls-files`.split($\)
-  gem.name          = "anytime-rails"
+  gem.name          = "anytime"
   gem.require_paths = ["lib"]
   gem.version       = Anytime::VERSION
 end
