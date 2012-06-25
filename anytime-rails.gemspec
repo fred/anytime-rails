@@ -6,10 +6,13 @@ Gem::Specification.new do |gem|
   gem.email         = ["fred.the.master@gmail.com"]
   gem.description   = %q{Any+Time time picker plugin.}
   gem.summary       = %q{Any+Time time picker plugin for rails, with support for Timezones.}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/fred/anytime-rails"
+
+  gem.add_dependency 'rails', '>= 3.0.0'
+  gem.add_dependency 'jquery-rails', '>= 1.0.0'
 
   gem.files         = `git ls-files`.split($\)
-  gem.name          = "anytime"
+  gem.name          = "anytime-rails"
   gem.require_paths = ["lib"]
   gem.version       = Anytime::VERSION
 end

@@ -6,7 +6,7 @@ Any+Time time picker plugin for rails, with support for Timezones.
 
 Add this line to your application's Gemfile:
 
-    gem 'anytime'
+    gem 'anytime-rails'
 
 And then execute:
 

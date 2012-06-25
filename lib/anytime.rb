@@ -1,6 +1,6 @@
 require "anytime/version"
 
-module AnyTime
+module Anytime
   class Engine < Rails::Engine
   end
 end
