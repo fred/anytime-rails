@@ -42,7 +42,7 @@
 {
     border:0;
     font: inherit;
-    font-size: x-small; 
+    font-size: 11px;
     font-style:normal;
     font-weight:normal;
     list-style-type:none;
@@ -147,10 +147,10 @@ div.AnyTime-win
 {
   background-color:#FCFCFE;
   border:1px solid #999;
-  color:#606062;
+  color:#555;
   cursor:default;
   float:left;
-  font-family:Arial,Helvetica,sans-serif;
+  font-family:Helvetica, Arial, sans-serif;
   height:1.5em;
   margin-bottom:1px;
   margin-right:1px;
@@ -366,9 +366,9 @@ div.AnyTime-win
 .AnyTime-pkr .AnyTime-dom-btn
 {
   float:none;
-  height:1.7em;
+  height:1.5em;
   text-align:right;
-  padding:0 0.5em 0 0;
+  padding:0.3em 0.5em 0 0;
 }
 
 .AnyTime-pkr .AnyTime-dom-btn-filled
