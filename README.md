@@ -2,19 +2,17 @@
 
 Any+Time time picker plugin for rails, with support for Timezones.
 
+Read more about it at: http://www.ama3.com/anytime/
+
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'anytime-rails'
+    gem 'anytime-rails', :git => 'git://github.com/fred/anytime-rails.git'
 
-And then execute:
+And then execute bundle install:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install anytime
 
 ## Usage
 
