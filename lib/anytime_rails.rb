@@ -1,5 +1,5 @@
-require "anytime/version"
+require "anytime_rails/version"
 
 module AnytimeRails
-  require 'anytime/engine'
+  require 'anytime_rails/engine'
 end
