@@ -42,6 +42,12 @@ Then use it as simple jquery plugin
         );
       });     
 
+## Changelog
+
+== 1.0.2 
+
+  * Upgraded anytime to version 4.2013.07.25.a
+
 
 ## Contributing
 

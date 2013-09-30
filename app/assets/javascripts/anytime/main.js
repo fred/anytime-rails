@@ -1,7 +1,7 @@
 /*****************************************************************************
  *  FILE:  anytime.js - The Any+Time(TM) JavaScript Library (source)
  *
- *  VERSION: 4.2013.03.15.a
+ *  VERSION: 4.2013.07.25.a
  *
  *  Copyright 2008-2013 Andrew M. Andrews III (www.AMA3.com). Some Rights 
  *  Reserved. This work licensed under the Creative Commons Attribution-
@@ -3406,7 +3406,7 @@ AnyTime.picker = function( id, options )
 		    //  Update minute.
 		
         cmpLo.setHours( this.time.getHours() );
-        cmpHi.setHours( this.time.getHours() );
+        cmpHi.setHours( this.time.getHours(), 9 );
 		    var units = this.time.getMinutes();
 		    var tens = String(Math.floor(units/10));
 		    var ones = String(units % 10);
@@ -3437,7 +3437,7 @@ AnyTime.picker = function( id, options )
 		    //  Update second.
 		
 		    cmpLo.setMinutes( this.time.getMinutes() );
-		    cmpHi.setMinutes( this.time.getMinutes() );
+		    cmpHi.setMinutes( this.time.getMinutes(), 9 );
 		    units = this.time.getSeconds();
 		    tens = String(Math.floor(units/10));
 		    ones = String(units % 10);
