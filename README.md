@@ -8,7 +8,7 @@ Read more about it at: http://www.ama3.com/anytime/
 
 Add this line to your application's Gemfile:
 
-    gem 'anytime-rails', :git => 'git://github.com/fred/anytime-rails.git'
+    gem 'anytime_rails', :git => 'git://github.com/fred/anytime-rails.git'
 
 And then execute bundle install:
 
