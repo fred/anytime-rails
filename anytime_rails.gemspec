@@ -9,7 +9,7 @@ Gem::Specification.new do |gem|
   gem.homepage      = "https://github.com/fred/anytime-rails"
 
   gem.add_dependency 'rails', '>= 3.2.0'
-  gem.add_dependency 'jquery-rails', '>= 3.0'
+  gem.add_dependency 'jquery-rails', '>= 2.0'
 
   gem.files         = `git ls-files`.split($\)
   gem.name          = "anytime_rails"
